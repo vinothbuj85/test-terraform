@@ -1,5 +1,5 @@
 resource "null_resource"  "print_message"{
-  count=5
+  count=10
   provisioner "local-exec" {
     command= "echo hello terraform !!"
   }
