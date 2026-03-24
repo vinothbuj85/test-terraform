@@ -1,7 +1,7 @@
 resource "null_resource"  "print_message"{
   count=10
   provisioner "local-exec" {
-    command= "echo Welcome to Enterprise TF!!!!"
+    command= "echo Welcome to Enterprise TF!!!##!"
   }
 
 } 
